@@ -18,6 +18,7 @@ export default function App() {
       </Nav>
       </Container>
   </Navbar>
+  <Outlet />
     </div>
   );
 }

@@ -9,7 +9,7 @@ export default function About() {
                     <div className="aboutImg">
                         <img className="headshotImg" src={headshotImg}></img>
                     </div>
-                    <div className="aboutTxt">
+                    <div className="aboutTxt" fluid>
                     <p>
                     Hey! This section is all about ME! Thanks for taking the time to take a look. My name is Zachary Kestner and I live in Lexington, KY but I come from Eastern Kentucky. 
                     As beautiful the Appalachian mountains can be, the opportunities are very lacking. 

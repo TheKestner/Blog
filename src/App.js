@@ -11,9 +11,9 @@ export default function App() {
       <Container>
       <Navbar.Brand href="/">The Kestner Blog</Navbar.Brand>
       <Nav className="me-auto">
-        <Nav.Link href="about"eventKey="/about">About</Nav.Link>
-        <Nav.Link href="blog" eventKey="/blog">Blog</Nav.Link>
-        <Nav.Link href="#projects">Projects</Nav.Link>
+        <Nav.Link href="about">About</Nav.Link>
+        <Nav.Link href="blog">Blog</Nav.Link>
+        <Nav.Link href="projects">Projects</Nav.Link>
       </Nav>
       </Container>
   </Navbar>

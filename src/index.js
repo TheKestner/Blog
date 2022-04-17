@@ -7,6 +7,7 @@ import About from './routes/about';
 import Blog from './routes/blog';
 import Projects from './routes/projects';
 import Main from './routes/Main'
+import Blog2 from './routes/blog2'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,6 +17,7 @@ ReactDOM.render(
       <Route path='/' element={<Main />} />
       <Route path="about" element={<About />} />
       <Route path='blog' element={<Blog />} />
+      <Route path ='blog2' element ={<Blog2 />} />
       <Route path='projects' element={<Projects />} />
       </Route>
     </Routes>

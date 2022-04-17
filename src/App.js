@@ -15,7 +15,7 @@ export default function App() {
         <Nav.Link href="projects">Projects</Nav.Link>
         <NavDropdown title="Blog" id="basic-nav-dropdown">
           <NavDropdown.Item href="blog">Weeks 1-4</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+          <NavDropdown.Item href="blog2">Weeks 5-8</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
           <NavDropdown.Divider />
           <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>

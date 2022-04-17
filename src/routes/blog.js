@@ -1,5 +1,4 @@
 import React from "react";
-import { CardGroup } from "react-bootstrap";
 import { Container, Row, Image, Card, Button } from "react-bootstrap";
 
 export default function Blog() {

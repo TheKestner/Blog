@@ -9,9 +9,8 @@ export default function App() {
     <div>
     <Navbar bg="dark" variant="dark">
       <Container>
-      <Navbar.Brand href="#home">The Kestner Blog</Navbar.Brand>
+      <Navbar.Brand href="/">The Kestner Blog</Navbar.Brand>
       <Nav className="me-auto">
-        <Nav.Link href="#home">Home</Nav.Link>
         <Nav.Link href="about"eventKey="/about">About</Nav.Link>
         <Nav.Link href="blog" eventKey="/blog">Blog</Nav.Link>
         <Nav.Link href="#projects">Projects</Nav.Link>

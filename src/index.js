@@ -6,12 +6,14 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import About from './routes/about';
 import Blog from './routes/blog';
 import Projects from './routes/projects';
+import Main from './routes/Main'
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<App />}>
+      <Route path='/' element={<Main />} />
       <Route path="about" element={<About />} />
       <Route path='blog' element={<Blog />} />
       <Route path='projects' element={<Projects />} />

@@ -1,25 +1,28 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Link, Outlet } from 'react-router-dom';
+import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <Navbar bg="dark" variant="dark">
+      <Container>
+      <Navbar.Brand href="/">The Kestner Blog</Navbar.Brand>
+      <Nav className="me-auto">
+        <Nav.Link href="about">About</Nav.Link>
+        <Nav.Link href="projects">Projects</Nav.Link>
+        <NavDropdown title="Blog" id="basic-nav-dropdown">
+          <NavDropdown.Item href="blog">Weeks 1-4</NavDropdown.Item>
+          <NavDropdown.Item href="blog2">Weeks 5-8</NavDropdown.Item>
+          <NavDropdown.Item href="blog3">Weeks 9-12</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.3">Weeks 13-16</NavDropdown.Item>
+        </NavDropdown>
+      </Nav>
+      </Container>
+  </Navbar>
+  <Outlet />
     </div>
   );
 }
-
-export default App;

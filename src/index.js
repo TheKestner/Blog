@@ -8,6 +8,7 @@ import Blog from './routes/blog';
 import Projects from './routes/projects';
 import Main from './routes/Main'
 import Blog2 from './routes/blog2'
+import Blog3 from './routes/blog3'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,9 +17,10 @@ ReactDOM.render(
       <Route path='/' element={<App />}>
       <Route path='/' element={<Main />} />
       <Route path="about" element={<About />} />
-      <Route path='blog' element={<Blog />} />
-      <Route path ='blog2' element ={<Blog2 />} />
       <Route path='projects' element={<Projects />} />
+      <Route path='blog' element={<Blog />} />
+      <Route path='blog2' element={<Blog2 />} />
+      <Route path='blog3' element={<Blog3 />} />
       </Route>
     </Routes>
     </BrowserRouter>

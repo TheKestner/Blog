@@ -16,9 +16,8 @@ export default function App() {
         <NavDropdown title="Blog" id="basic-nav-dropdown">
           <NavDropdown.Item href="blog">Weeks 1-4</NavDropdown.Item>
           <NavDropdown.Item href="blog2">Weeks 5-8</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-          <NavDropdown.Divider />
-          <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+          <NavDropdown.Item href="blog3">Weeks 9-12</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.3">Weeks 13-16</NavDropdown.Item>
         </NavDropdown>
       </Nav>
       </Container>

@@ -1,1 +1,10 @@
 
+.splide__slide img {
+    width: 50%;
+    height: 50%;
+  }
+  
+  .splide__track{
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }

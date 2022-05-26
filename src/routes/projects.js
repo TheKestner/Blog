@@ -2,6 +2,11 @@ import React from "react";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import { Container,Card, Button } from "react-bootstrap";
+import weatherImg from '../images/weather.png';
+import finalImg from '../images/Finalproject.png';
+import todoImg from '../images/todolist.png';
+import tictactoeImg from '../images/tictactoe.png';
+import restaurantImg from '../images/reactrestaurant.png';
 
 export default function Projects() {
     return(
@@ -17,7 +22,7 @@ export default function Projects() {
            >
                 <SplideSlide>
                     <Card style={{ margin: 'auto' }}>
-                        <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card.Img variant="top" src={finalImg} />
                         <Card.Body>
                             <Card.Title>Project 1</Card.Title>
                             <Card.Text>
@@ -31,7 +36,7 @@ export default function Projects() {
 
                     <SplideSlide>
                     <Card style={{ margin: 'auto' }}>
-                        <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card.Img variant="top" src={restaurantImg} />
                         <Card.Body>
                             <Card.Title>Project 1</Card.Title>
                             <Card.Text>
@@ -45,7 +50,7 @@ export default function Projects() {
 
                 <SplideSlide>
                     <Card style={{ margin: 'auto'}}>
-                        <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card.Img variant="top" src={tictactoeImg} />
                         <Card.Body>
                             <Card.Title>Project 1</Card.Title>
                             <Card.Text>
@@ -59,7 +64,7 @@ export default function Projects() {
 
                 <SplideSlide>
                     <Card style={{ margin: 'auto' }}>
-                        <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card.Img variant="top" src={todoImg} />
                         <Card.Body>
                             <Card.Title>Project 1</Card.Title>
                             <Card.Text>
@@ -73,7 +78,7 @@ export default function Projects() {
 
                 <SplideSlide>
                     <Card style={{ margin: 'auto' }}>
-                        <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card.Img variant="top" src={weatherImg} />
                         <Card.Body>
                             <Card.Title>Project 1</Card.Title>
                             <Card.Text>

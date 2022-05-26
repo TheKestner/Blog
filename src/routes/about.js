@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Imag, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import headshotImg from '../images/kestner.jpg'
 export default function About() {
     return(

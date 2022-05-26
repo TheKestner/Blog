@@ -1,8 +1,7 @@
 import React from "react";
-import { CardGroup } from "react-bootstrap";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
-import { Container, Row, Image, Card, Button } from "react-bootstrap";
+import { Container,Card, Button } from "react-bootstrap";
 
 export default function Projects() {
     return(

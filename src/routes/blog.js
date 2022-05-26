@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Image, Card, Button } from "react-bootstrap";
+import { Container} from "react-bootstrap";
 
 export default function Blog() {
     return(
